@@ -1,22 +1,11 @@
 # Penman Light UI Theme for Inkdrop
 
-Inkdrop's UI elements are styled based on [Semantic UI](http://semantic-ui.com/).
-It's mostly common in customizing the theme with it, so [their documentation](http://learnsemantic.com/) is very helpful to get started.
+A light theme for Inkdrop. This goes well with following themes:
 
-Read [the documentation](http://doc.inkdrop.info/manual/creating-a-theme) for detailed instructions.
+[Penman Sytax](https://my.inkdrop.app/plugins/penman-syntax)
+[Penman Preview](https://my.inkdrop.app/plugins/penman-preview)
 
-## How to build
+## Screenshot
 
-```
-npm install
-npm build
-```
+![full](https://github.com/chartoin/inkdrop-penman-light-ui/blob/5aa2007d4ed3a5e586c8c13575c0af04a577e9dd/images/full.png)
 
-## Which files to edit
-
-- `src/site/globals/site.variables`
-  - Variables for Inkdrop-specific components
-- `src/site/globals/site.overrides`
-  - Declarations of CSS variables
-- `src/themes/default/globals/site.variables`
-  - Common variables
