@@ -1,8 +1,8 @@
 {
-  "name": "default-light-ui",
-  "version": "2.1.0",
+  "name": "penman-ui",
+  "version": "0.1.0",
   "theme": "ui",
-  "description": "Default Light UI Theme for Inkdrop",
+  "description": "Penman Light UI Theme for Inkdrop",
   "styleSheets": [
     "theme.min.css"
   ],
@@ -10,11 +10,12 @@
     "run": "gulp",
     "build": "gulp build"
   },
+	"repository": "https://github.com/chartoin/inkdrop-penman-light-ui",
   "keywords": [
     "inkdrop",
     "markdown"
   ],
-  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "author": "Chartoin <chartoin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "better-console": "^1.0.1",

@@ -75,7 +75,7 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : @gray-00;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #FFFFFF;
+@pageBackground      : @gray-00;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : rgba(0, 0, 0, 0.87);
+@textColor           : @gray-90;
 
 /*-------------------
       Paragraph
@@ -215,24 +215,69 @@
 @largeMonitorBreakpoint      : 1200px;
 @widescreenMonitorBreakpoint : 1920px;
 
+/*------------------------------
+      Site Colors (Penman)
+------------------------------*/
+@white: #FFFFFF;
+@black: #000000;
+
+@gray-00: #F9FBFF;
+@gray-05: #F2F3FA;
+@gray-10: #E2E3EC;
+@gray-20: #C6C8CF;
+@gray-30: #AAADBD;
+@gray-40: #8F93A0;
+@gray-50: #62687A;
+@gray-60: #505668;
+@gray-70: #2F323A;
+@gray-80: #222328;
+@gray-90: #151518;
+
+@red-50: #CD3F5C;
+@red-90: #A63055;
+
+@orange-50: #F47933;
+@orange-90: #9D5025;
+
+@yellow-50: #FFD530;
+@yellow-60: #FFC220;
+@yellow-90: #CA9439;
+
+@green-50: #0CB074;
+@green-90: #146B60;
+
+@blue-50: #056AB5;
+@blue-90: #126495;
+
+@indigo-50: #484F9F;
+@indigo-90: #263480;
+
+@violet-50: #8A6BAF;
+@violet-90: #7358A0;
+
+@teal-50: #01BABD;
+@teal-90: #087E90;
+
+@pink-50: #EF4C86;
+@pink-90: #C3408B;
+
 /*-------------------
       Site Colors
 --------------------*/
 
 /*---  Colors  ---*/
-@red              : #DB2828;
-@orange           : #F2711C;
-@yellow           : #FBBD08;
-@olive            : #B5CC18;
-@green            : #21BA45;
-@teal             : #00B5AD;
-@blue             : #2185D0;
-@violet           : #6435C9;
-@purple           : #A333C8;
-@pink             : #E03997;
-@brown            : #A5673F;
-@grey             : #767676;
-@black            : #1B1C1D;
+@red              : @red-50;
+@orange           : @orange-50;
+@yellow           : @yellow-60;
+@olive            : @green-90;
+@green            : @green-50;
+@teal             : @teal-50;
+@blue             : @blue-50;
+@violet           : @violet-50;
+@purple           : @violet-90;
+@pink             : @pink-90;
+@brown            : @orange-90;
+@grey             : @gray-60;
 
 /*---  Light Colors  ---*/
 @lightRed         : #FF695E;
@@ -254,7 +299,6 @@
 @offWhite         : #F9FAFB;
 @darkWhite        : #F3F4F5;
 @midWhite         : #DCDDDE;
-@white            : #FFFFFF;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
@@ -439,15 +483,15 @@
      Neutral Text
 --------------------*/
 
-@darkTextColor               : rgba(0, 0, 0, 0.85);
-@mutedTextColor              : rgba(0, 0, 0, 0.6);
-@lightTextColor              : rgba(0, 0, 0, 0.4);
+@darkTextColor               : @gray-90;
+@mutedTextColor              : @gray-40;
+@lightTextColor              : @gray-50;
 
-@unselectedTextColor         : rgba(0, 0, 0, 0.4);
-@hoveredTextColor            : rgba(0, 0, 0, 0.8);
+@unselectedTextColor         : @gray-80;
+@hoveredTextColor            : @gray-50;
 @pressedTextColor            : rgba(0, 0, 0, 0.9);
 @selectedTextColor           : rgba(0, 0, 0, 0.95);
-@disabledTextColor           : rgba(0, 0, 0, 0.2);
+@disabledTextColor           : @gray-30;
 
 @invertedTextColor           : rgba(255, 255, 255, 0.9);
 @invertedMutedTextColor      : rgba(255, 255, 255, 0.8);
@@ -916,7 +960,7 @@
 @greyDown                : lighten(@grey, 10);
 
 /*---  Light Tones  ---*/
-@whiteDown               : darken(@white, 10);
+@whiteDown               : darken(@gray-00, 10);
 @offWhiteDown            : darken(@offWhite, 10);
 @darkWhiteDown           : darken(@darkWhite, 10);
 
@@ -977,6 +1021,6 @@
 @greyActive                : darken(@grey, 5);
 
 /*---  Light Tones  ---*/
-@whiteActive               : darken(@white, 5);
+@whiteActive               : darken(@gray-00, 5);
 @offWhiteActive            : darken(@offWhite, 5);
 @darkWhiteActive           : darken(@darkWhite, 5);
