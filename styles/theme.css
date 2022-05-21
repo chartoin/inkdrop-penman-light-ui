@@ -691,6 +691,37 @@ input::selection {
         Global Overrides
 *******************************/
 
+/*-------------------
+      Side Bar
+--------------------*/
+
+/*-------------------
+      Note List Bar
+--------------------*/
+
+/*-------------------
+      Others
+--------------------*/
+
+.note-list-bar-layout {
+  border-right: 1px solid #E2E3EC;
+  border-left: 1px solid #E2E3EC;
+}
+
+.create-note-button:hover {
+  color: #126495;
+}
+
+button.mde-toolbar-item:hover {
+  color: #126495;
+  border-color: #126495;
+}
+
+.editor-header-more button:hover {
+  color: #126495;
+  border-color: #126495;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -763,9 +794,9 @@ input::selection {
       Focused Input
    --------------------*/
   /* Used on inputs, textarea etc */
-  --focused-form-border-color: #85B7D9;
+  --focused-form-border-color: #126495;
   /* Used on dropdowns, other larger blocks */
-  --focused-form-muted-border-color: #96C8DA;
+  --focused-form-muted-border-color: #056AB5;
   /*-------------------
           Sizes
    --------------------*/
@@ -840,7 +871,7 @@ input::selection {
   /*---  Colors  ---*/
   --red: #CD3F5C;
   --orange: #F47933;
-  --yellow: #FFC220;
+  --yellow: #FAA632;
   --olive: #146B60;
   --green: #0CB074;
   --teal: #01BABD;
@@ -1019,7 +1050,7 @@ input::selection {
   --muted-text-color: #8F93A0;
   --light-text-color: #62687A;
   --unselected-text-color: #222328;
-  --hovered-text-color: #62687A;
+  --hovered-text-color: #126495;
   --pressed-text-color: rgba(0, 0, 0, 0.9);
   --selected-text-color: rgba(0, 0, 0, 0.95);
   --inverted-text-color: rgba(255, 255, 255, 0.9);
@@ -1284,7 +1315,7 @@ input::selection {
   --secondary-color-hover: #0d0d0d;
   --red-hover: #c82b4b;
   --orange-hover: #fd6610;
-  --yellow-hover: #ffbb06;
+  --yellow-hover: #ff9c14;
   --olive-hover: #0d594f;
   --green-hover: #039f66;
   --teal-hover: #00a2a5;
@@ -1330,11 +1361,11 @@ input::selection {
           Focus
    --------------------*/
   /*---  Colors  ---*/
-  --primary-color-focus: #c8cade;
+  --primary-color-focus: #044e7a;
   --secondary-color-focus: #141414;
   --red-focus: #c22242;
   --orange-focus: #fe5c00;
-  --yellow-focus: #f6b300;
+  --yellow-focus: #ff9604;
   --olive-focus: #084f46;
   --green-focus: #00935d;
   --teal-focus: #009395;
@@ -1384,7 +1415,7 @@ input::selection {
   --secondary-color-down: #1a1a1a;
   --red-down: #ac2d47;
   --orange-down: #e85c0c;
-  --yellow-down: #ecab00;
+  --yellow-down: #f38f06;
   --olive-down: #0c4039;
   --green-down: #098055;
   --teal-down: #01888a;
@@ -1434,7 +1465,7 @@ input::selection {
   --secondary-color-active: #0d0d0d;
   --red-active: #cb2749;
   --orange-active: #ff660f;
-  --yellow-active: #ffbb06;
+  --yellow-active: #ff9c14;
   --olive-active: #0b5b51;
   --green-active: #00a367;
   --teal-active: #00a2a5;
@@ -1473,19 +1504,19 @@ input::selection {
   --black-active: #000000;
   --grey-active: #454a5a;
   /*---  Light Tones  ---*/
-  --white-active: #e0eaff;
+  --white-active: #F2F3FA;
   --off-white-active: #eaedf1;
   --dark-white-active: #e5e7e9;
   /*-------------------
         Side Bar
   --------------------*/
-  --sidebar-background: #E2E3EC;
-  --sidebar-menu-item-active-background: #F9FBFF;
+  --sidebar-background: #F9FBFF;
+  --sidebar-menu-item-active-background: #E2E3EC;
   --sidebar-menu-section-color: #222328;
   --sidebar-menu-item-color: #62687A;
   --sidebar-menu-action-color: rgba(40, 40, 40, 0.3);
-  --sidebar-menu-action-hover-color: #62687A;
-  --sidebar-sync-status-view-background: #E2E3EC;
+  --sidebar-menu-action-hover-color: #126495;
+  --sidebar-sync-status-view-background: #F9FBFF;
   --sidebar-sync-status-view-text-color: #222328;
   --sidebar-sync-status-view-detail-color: #8F93A0;
   --sidebar-scrollbar-width: 6px;
@@ -1500,22 +1531,22 @@ input::selection {
   /*-------------------
         Note List Bar
   --------------------*/
-  --note-list-bar-background: #F2F3FA;
+  --note-list-bar-background: #F9FBFF;
   --note-list-bar-pinned-section-header-background: #F9FBFF;
-  --note-list-bar-pinned-section-header-border-bottom: 4px solid #8F93A0;
-  --note-list-bar-pinned-section-footer-border-bottom: 4px solid #8F93A0;
+  --note-list-bar-pinned-section-header-border-bottom: 1px solid #8F93A0;
+  --note-list-bar-pinned-section-footer-border-bottom: 1px solid #8F93A0;
   --note-list-view-item-color: #8F93A0;
-  --note-list-view-item-separator-border: 1px solid #C6C8CF;
+  --note-list-view-item-separator-border: 1px solid #E2E3EC;
   --note-list-view-item-date-color: #151518;
   --note-list-view-item-tag-color: #005391;
-  --note-list-view-item-active-background: #F9FBFF;
+  --note-list-view-item-active-background: #E2E3EC;
   --note-list-view-item-active-color: #151518;
   --note-list-view-item-active-date-color: #151518;
   --note-list-view-item-active-tag-color: #151518;
-  --note-list-view-item-focus-inner-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
-  --note-search-bar-background: #F2F3FA;
+  --note-list-view-item-focus-inner-shadow: inset 0 0 1px #E2E3EC;
+  --note-search-bar-background: #F9FBFF;
   --note-search-bar-border-bottom: #C6C8CF;
-  --note-search-bar-input-border: 1px solid #AAADBD;
+  --note-search-bar-input-border: 1px solid #E2E3EC;
   --note-search-bar-input-background: #F9FBFF;
   /*-------------------
         Header Note Menu
@@ -1600,7 +1631,7 @@ input::selection {
   background-color: #CACBCD;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-  color: #62687A;
+  color: #126495;
 }
 
 .ui.button:hover .icon {
@@ -1613,7 +1644,7 @@ input::selection {
 
 .ui.button:focus {
   background-color: #CACBCD;
-  color: #62687A;
+  color: #126495;
   background-image: '' !important;
   box-shadow: '' !important;
 }
@@ -1910,7 +1941,7 @@ input::selection {
 .ui.inverted.button:hover {
   background: #FFFFFF;
   box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: #62687A;
+  color: #126495;
 }
 
 /* Active / Focus */
@@ -1919,7 +1950,7 @@ input::selection {
 .ui.inverted.button.active {
   background: #FFFFFF;
   box-shadow: 0px 0px 0px 2px #FFFFFF inset !important;
-  color: #62687A;
+  color: #126495;
 }
 
 /* Active Focus */
@@ -1927,7 +1958,7 @@ input::selection {
 .ui.inverted.button.active:focus {
   background: #DCDDDE;
   box-shadow: 0px 0px 0px 2px #DCDDDE inset !important;
-  color: #62687A;
+  color: #126495;
 }
 
 /*-------------------
@@ -2320,14 +2351,14 @@ input::selection {
 .ui.basic.buttons .button:hover,
 .ui.basic.button:hover {
   background: #FFFFFF !important;
-  color: #62687A !important;
+  color: #126495 !important;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
 .ui.basic.buttons .button:focus,
 .ui.basic.button:focus {
   background: #FFFFFF !important;
-  color: #62687A !important;
+  color: #126495 !important;
   box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.35) inset, 0px 0px 0px 0px rgba(34, 36, 38, 0.15) inset;
 }
 
@@ -4836,7 +4867,7 @@ input::selection {
 
 .ui.yellow.buttons .button,
 .ui.yellow.button {
-  background-color: #FFC220;
+  background-color: #FAA632;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4848,21 +4879,21 @@ input::selection {
 
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
-  background-color: #ffbb06;
+  background-color: #ff9c14;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:focus,
 .ui.yellow.button:focus {
-  background-color: #f6b300;
+  background-color: #ff9604;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.yellow.buttons .button:active,
 .ui.yellow.button:active {
-  background-color: #ecab00;
+  background-color: #f38f06;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4871,7 +4902,7 @@ input::selection {
 .ui.yellow.buttons .active.button:active,
 .ui.yellow.active.button,
 .ui.yellow.button .active.button:active {
-  background-color: #ffbb06;
+  background-color: #ff9c14;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4880,35 +4911,35 @@ input::selection {
 
 .ui.basic.yellow.buttons .button,
 .ui.basic.yellow.button {
-  box-shadow: 0px 0px 0px 1px #FFC220 inset !important;
-  color: #FFC220 !important;
+  box-shadow: 0px 0px 0px 1px #FAA632 inset !important;
+  color: #FAA632 !important;
 }
 
 .ui.basic.yellow.buttons .button:hover,
 .ui.basic.yellow.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ffbb06 inset !important;
-  color: #ffbb06 !important;
+  box-shadow: 0px 0px 0px 1px #ff9c14 inset !important;
+  color: #ff9c14 !important;
 }
 
 .ui.basic.yellow.buttons .button:focus,
 .ui.basic.yellow.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #f6b300 inset !important;
-  color: #ffbb06 !important;
+  box-shadow: 0px 0px 0px 1px #ff9604 inset !important;
+  color: #ff9c14 !important;
 }
 
 .ui.basic.yellow.buttons .active.button,
 .ui.basic.yellow.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ffbb06 inset !important;
-  color: #ecab00 !important;
+  box-shadow: 0px 0px 0px 1px #ff9c14 inset !important;
+  color: #f38f06 !important;
 }
 
 .ui.basic.yellow.buttons .button:active,
 .ui.basic.yellow.button:active {
-  box-shadow: 0px 0px 0px 1px #ecab00 inset !important;
-  color: #ecab00 !important;
+  box-shadow: 0px 0px 0px 1px #f38f06 inset !important;
+  color: #f38f06 !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.yellow.button:not(:first-child) {
@@ -5021,7 +5052,7 @@ input::selection {
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #c8cade;
+  background-color: #044e7a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -5060,7 +5091,7 @@ input::selection {
 .ui.basic.primary.buttons .button:focus,
 .ui.basic.primary.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #c8cade inset !important;
+  box-shadow: 0px 0px 0px 1px #044e7a inset !important;
   color: #d2d4e3 !important;
 }
 
@@ -7716,15 +7747,15 @@ a.ui.inverted.olive.header:hover {
 /*--- Yellow ---*/
 
 .ui.yellow.header {
-  color: #FFC220 !important;
+  color: #FAA632 !important;
 }
 
 a.ui.yellow.header:hover {
-  color: #ffbb06 !important;
+  color: #ff9c14 !important;
 }
 
 .ui.yellow.dividing.header {
-  border-bottom: 2px solid #FFC220;
+  border-bottom: 2px solid #FAA632;
 }
 
 /* Inverted */
@@ -8345,7 +8376,7 @@ i.inverted.circular.orange.icon {
 /* Yellow */
 
 i.yellow.icon {
-  color: #FFC220 !important;
+  color: #FAA632 !important;
 }
 
 i.inverted.yellow.icon {
@@ -8354,7 +8385,7 @@ i.inverted.yellow.icon {
 
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
-  background-color: #FFC220 !important;
+  background-color: #FAA632 !important;
   color: #FFFFFF !important;
 }
 
@@ -14683,9 +14714,9 @@ img.ui.bordered.image {
 
 .ui.input.focus > input,
 .ui.input > input:focus {
-  border-color: #85B7D9;
+  border-color: #126495;
   background: #F9FBFF;
-  color: #62687A;
+  color: #126495;
   box-shadow: none;
 }
 
@@ -14898,7 +14929,7 @@ img.ui.bordered.image {
 }
 
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: #85B7D9;
+  border-left-color: #126495;
 }
 
 /* Regular Label on Right */
@@ -14915,7 +14946,7 @@ img.ui.bordered.image {
 }
 
 .ui[class*="right labeled"].input > input:focus {
-  border-right-color: #85B7D9 !important;
+  border-right-color: #126495 !important;
 }
 
 /* Corner Label */
@@ -15008,7 +15039,7 @@ img.ui.bordered.image {
 /* Input Focus */
 
 .ui.action.input:not([class*="left action"]) > input:focus {
-  border-right-color: #85B7D9 !important;
+  border-right-color: #126495 !important;
 }
 
 /* Button on Left */
@@ -15034,7 +15065,7 @@ img.ui.bordered.image {
 /* Input Focus */
 
 .ui[class*="left action"].input > input:focus {
-  border-left-color: #85B7D9 !important;
+  border-left-color: #126495 !important;
 }
 
 /*--------------------
@@ -15563,12 +15594,12 @@ a.ui.label:hover {
   background-color: #E0E0E0;
   border-color: #E0E0E0;
   background-image: none;
-  color: #62687A;
+  color: #126495;
 }
 
 .ui.labels a.label:hover:before,
 a.ui.label:hover:before {
-  color: #62687A;
+  color: #126495;
 }
 
 /*-------------------
@@ -15729,8 +15760,8 @@ a.ui.basic.orange.label:hover {
 
 .ui.yellow.labels .label,
 .ui.yellow.label {
-  background-color: #FFC220 !important;
-  border-color: #FFC220 !important;
+  background-color: #FAA632 !important;
+  border-color: #FAA632 !important;
   color: #FFFFFF !important;
 }
 
@@ -15738,8 +15769,8 @@ a.ui.basic.orange.label:hover {
 
 .ui.yellow.labels .label:hover,
 a.ui.yellow.label:hover {
-  background-color: #ffbb06 !important;
-  border-color: #ffbb06 !important;
+  background-color: #ff9c14 !important;
+  border-color: #ff9c14 !important;
   color: #FFFFFF !important;
 }
 
@@ -15753,22 +15784,22 @@ a.ui.yellow.label:hover {
 /* Ribbon */
 
 .ui.yellow.ribbon.label {
-  border-color: #ecab00 !important;
+  border-color: #f38f06 !important;
 }
 
 /* Basic */
 
 .ui.basic.yellow.label {
   background: none #FFFFFF !important;
-  color: #FFC220 !important;
-  border-color: #FFC220 !important;
+  color: #FAA632 !important;
+  border-color: #FAA632 !important;
 }
 
 .ui.basic.yellow.labels a.label:hover,
 a.ui.basic.yellow.label:hover {
   background-color: #FFFFFF !important;
-  color: #ffbb06 !important;
-  border-color: #ffbb06 !important;
+  color: #ff9c14 !important;
+  border-color: #ff9c14 !important;
 }
 
 /*--- Olive ---*/
@@ -16958,7 +16989,7 @@ ol.ui.list ol li,
 
 .ui.link.list.list a.item:hover,
 .ui.link.list.list .item a:not(.ui):hover {
-  color: #62687A;
+  color: #126495;
 }
 
 .ui.link.list.list a.item:active,
@@ -17017,7 +17048,7 @@ ol.ui.list ol li,
 .ui.selection.list.list > .item:hover,
 .ui.selection.list > .item:hover {
   background: rgba(0, 0, 0, 0.03);
-  color: #62687A;
+  color: #126495;
 }
 
 .ui.selection.list .list > .item:active,
@@ -19231,11 +19262,11 @@ ol.ui.horizontal.list li:before,
 /* Yellow */
 
 .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid #FFC220 !important;
+  border-top: 2px solid #FAA632 !important;
 }
 
 .ui.inverted.yellow.segment {
-  background-color: #FFC220 !important;
+  background-color: #FAA632 !important;
   color: #FFFFFF !important;
 }
 
@@ -19860,7 +19891,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
   background: #F9FAFB;
-  color: #62687A;
+  color: #126495;
 }
 
 /* Link Down */
@@ -20685,7 +20716,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="file"]:focus,
 .ui.form input[type="url"]:focus {
   color: rgba(0, 0, 0, 0.95);
-  border-color: #85B7D9;
+  border-color: #126495;
   border-radius: 0.28571429rem;
   background: #F9FBFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
@@ -20693,7 +20724,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form textarea:focus {
   color: rgba(0, 0, 0, 0.95);
-  border-color: #85B7D9;
+  border-color: #126495;
   border-radius: 0.28571429rem;
   background: #F9FBFF;
   box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.35) inset;
@@ -22907,7 +22938,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .yellow.row,
 .ui.grid > .yellow.column,
 .ui.grid > .row > .yellow.column {
-  background-color: #FFC220 !important;
+  background-color: #FAA632 !important;
   color: #FFFFFF;
 }
 
@@ -24269,7 +24300,7 @@ Floated Menu / Item
 
 .ui.tabular.menu .item:hover {
   background-color: transparent;
-  color: #62687A;
+  color: #126495;
 }
 
 /* Active */
@@ -25000,8 +25031,8 @@ Floated Menu / Item
 
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
-  border-color: #FFC220 !important;
-  color: #FFC220 !important;
+  border-color: #FAA632 !important;
+  color: #FAA632 !important;
 }
 
 .ui.menu .olive.active.item,
@@ -25222,7 +25253,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .yellow.active.item,
 .ui.inverted.yellow.menu {
-  background-color: #FFC220;
+  background-color: #FAA632;
 }
 
 .ui.inverted.yellow.menu .item:before {
@@ -27067,11 +27098,11 @@ Floated Menu / Item
 /* Yellow */
 
 .ui.yellow.table {
-  border-top: 0.2em solid #FFC220;
+  border-top: 0.2em solid #FAA632;
 }
 
 .ui.inverted.yellow.table {
-  background-color: #FFC220 !important;
+  background-color: #FAA632 !important;
   color: #FFFFFF !important;
 }
 
@@ -27387,7 +27418,7 @@ Floated Menu / Item
 
 .ui.sortable.table thead th:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: #62687A;
+  color: #126495;
 }
 
 /* Sorted */
@@ -28445,13 +28476,13 @@ a.ui.card:hover,
 .ui.yellow.cards > .card,
 .ui.cards > .yellow.card,
 .ui.yellow.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #FFC220, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #FAA632, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.yellow.cards > .card:hover,
 .ui.cards > .yellow.card:hover,
 .ui.yellow.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #ffbb06, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #ff9c14, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Olive */
@@ -29132,7 +29163,7 @@ a.ui.card:hover,
 
 .ui.comments .comment .actions a.active,
 .ui.comments .comment .actions a:hover {
-  color: #62687A;
+  color: #126495;
 }
 
 /*--------------------
@@ -30359,7 +30390,7 @@ a.ui.card:hover,
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
 .ui.yellow.statistic > .value {
-  color: #FFC220;
+  color: #FAA632;
 }
 
 .ui.olive.statistics .statistic > .value,
@@ -31012,7 +31043,7 @@ a.ui.card:hover,
 
 .ui.checkbox label:hover,
 .ui.checkbox + label:hover {
-  color: #62687A;
+  color: #126495;
 }
 
 /*--------------
@@ -31041,7 +31072,7 @@ a.ui.card:hover,
 .ui.checkbox input:focus ~ .box:before,
 .ui.checkbox input:focus ~ label:before {
   background: #FFFFFF;
-  border-color: #96C8DA;
+  border-color: #056AB5;
 }
 
 .ui.checkbox input:focus ~ .box:after,
@@ -31094,7 +31125,7 @@ a.ui.card:hover,
 .ui.checkbox input:checked:focus ~ .box:before,
 .ui.checkbox input:checked:focus ~ label:before {
   background: #FFFFFF;
-  border-color: #96C8DA;
+  border-color: #056AB5;
 }
 
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
@@ -31316,7 +31347,7 @@ a.ui.card:hover,
 
 .ui.slider.checkbox .box:hover,
 .ui.slider.checkbox label:hover {
-  color: #62687A;
+  color: #126495;
 }
 
 .ui.slider.checkbox .box:hover::before,
@@ -31467,7 +31498,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #c8cade !important;
+  background-color: #044e7a !important;
 }
 
 /*******************************
@@ -32234,24 +32265,24 @@ select.ui.dropdown {
 /* Active */
 
 .ui.selection.active.dropdown {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
 }
 
 .ui.selection.active.dropdown .menu {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
 }
 
 /* Focus */
 
 .ui.selection.dropdown:focus {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: none;
 }
 
 .ui.selection.dropdown:focus .menu {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
 }
 
@@ -32259,18 +32290,18 @@ select.ui.dropdown {
 
 .ui.selection.visible.dropdown > .text:not(.default) {
   font-weight: normal;
-  color: #62687A;
+  color: #126495;
 }
 
 /* Visible Hover */
 
 .ui.selection.active.dropdown:hover {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
 }
 
 .ui.selection.active.dropdown:hover .menu {
-  border-color: #96C8DA;
+  border-color: #056AB5;
   box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
 }
 
@@ -35470,7 +35501,7 @@ a.ui.nag {
 /* Yellow */
 
 .ui.yellow.progress .bar {
-  background-color: #FFC220;
+  background-color: #FAA632;
 }
 
 .ui.yellow.inverted.progress .bar {

@@ -93,10 +93,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: @blue-90;
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: @blue-50;
 
 /*-------------------
         Sizes
@@ -241,6 +241,7 @@
 
 @yellow-50: #FFD530;
 @yellow-60: #FFC220;
+@yellow-70: #FAA632;
 @yellow-90: #CA9439;
 
 @green-50: #0CB074;
@@ -268,7 +269,7 @@
 /*---  Colors  ---*/
 @red              : @red-50;
 @orange           : @orange-50;
-@yellow           : @yellow-60;
+@yellow           : @yellow-70;
 @olive            : @green-90;
 @green            : @green-50;
 @teal             : @teal-50;
@@ -488,7 +489,7 @@
 @lightTextColor              : @gray-50;
 
 @unselectedTextColor         : @gray-80;
-@hoveredTextColor            : @gray-50;
+@hoveredTextColor            : @blue-90;
 @pressedTextColor            : rgba(0, 0, 0, 0.9);
 @selectedTextColor           : rgba(0, 0, 0, 0.95);
 @disabledTextColor           : @gray-30;
@@ -848,7 +849,7 @@
 --------------------*/
 
 /*---  Colors  ---*/
-@primaryColorFocus        : saturate(darken(@primaryColor, 8), 20, relative);
+@primaryColorFocus        : saturate(darken(@blue-90, 8), 20, relative);
 @secondaryColorFocus      : saturate(lighten(@secondaryColor, 8), 20, relative);
 @lightPrimaryColorFocus   : saturate(darken(@lightPrimaryColor, 8), 20, relative);
 @lightSecondaryColorFocus : saturate(lighten(@lightSecondaryColor, 8), 20, relative);
@@ -1021,6 +1022,6 @@
 @greyActive                : darken(@grey, 5);
 
 /*---  Light Tones  ---*/
-@whiteActive               : darken(@gray-00, 5);
+@whiteActive               : @gray-05;
 @offWhiteActive            : darken(@offWhite, 5);
 @darkWhiteActive           : darken(@darkWhite, 5);

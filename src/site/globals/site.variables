@@ -50,7 +50,7 @@
 @noteListViewItemActiveColor: @textColor;
 @noteListViewItemActiveDateColor: @textColor;
 @noteListViewItemActiveTagColor: @textColor;
-@noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
+@noteListViewItemFocusInnerShadow: inset 0 0 1px @gray-10;
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: @gray-20;
 @noteSearchBarInputBorder: 1px solid @gray-30;

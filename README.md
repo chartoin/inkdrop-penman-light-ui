@@ -7,5 +7,5 @@ A light theme for Inkdrop. This goes well with following themes:
 
 ## Screenshot
 
-![full](https://github.com/chartoin/inkdrop-penman-light-ui/blob/5aa2007d4ed3a5e586c8c13575c0af04a577e9dd/images/full.png)
+![full](https://github.com/chartoin/inkdrop-penman-light-ui/raw/master/images/full.png)
 
