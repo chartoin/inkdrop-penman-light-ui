@@ -16,7 +16,7 @@
   background @defaultDuration @defaultEasing,
   color @defaultDuration @defaultEasing
 ;
-@background: @white;
+@background: @gray-00;
 @color: @textColor;
 @borderWidth: 1px;
 @border: @borderWidth solid @borderColor;

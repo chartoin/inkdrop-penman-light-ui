@@ -8,52 +8,58 @@
 @useCustomScrollbars: false;
 
 @primaryColor: @gray-10;
-@linkHoverColor: @primaryColor;
+@linkHoverColor: @blue-50;
 
+@background: @gray-00;
 
 /*-------------------
       Side Bar
 --------------------*/
-@sidebarBackground     : @gray-10;
-@sidebarMenuItemActiveBackground: @gray-00;
+@sidebarBackground     : @gray-00;
+@sidebarMenuItemActiveBackground: @gray-10;
 @sidebarMenuSectionColor: @unselectedTextColor;
 @sidebarMenuItemColor  : @lightTextColor;
 @sidebarMenuActionColor : @disabledTextColor;
 @sidebarMenuActionHoverColor : @hoveredTextColor;
-@sidebarSyncStatusViewBackground: @gray-10;
+@sidebarSyncStatusViewBackground: @gray-00;
 @sidebarSyncStatusViewTextColor: @unselectedTextColor;
 @sidebarSyncStatusViewDetailColor: @mutedTextColor;
 @sidebarScrollbarWidth: 6px;
 @sidebarScrollbarTrackBackground: rgba(255,255,255,0.02);
 @sidebarScrollbarThumbBackground: rgba(255,255,255,0.2);
 
-
 /*-------------------
       Scroll Bar
 --------------------*/
 @scrollbarWidth: 6px;
-@scrollbarTrackBackground: rgba(0,0,0,0.05);
-@scrollbarThumbBackground: rgba(0,0,0,0.2);
+@scrollbarTrackBackground: @gray-05;
+@scrollbarThumbBackground: @gray-20;
 
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: @gray-05;
+@noteListBarBackground: @gray-00;
+
 @noteListBarPinnedSectionHeaderBackground: @gray-00;
-@noteListBarPinnedSectionHeaderBorderBottom: 4px solid @gray-40;
-@noteListBarPinnedSectionFooterBorderBottom: 4px solid @gray-40;
+@noteListBarPinnedSectionHeaderBorderBottom: 1px solid @gray-40;
+@noteListBarPinnedSectionFooterBorderBottom: 1px solid @gray-40;
+
 @noteListViewItemColor: @mutedTextColor;
-@noteListViewItemSeparatorBorder: 1px solid @gray-20;
 @noteListViewItemDateColor: @textColor;
 @noteListViewItemTagColor: @blueFocus;
-@noteListViewItemActiveBackground: @gray-00;
+
+@noteListViewItemActiveBackground: @gray-10;
 @noteListViewItemActiveColor: @textColor;
 @noteListViewItemActiveDateColor: @textColor;
 @noteListViewItemActiveTagColor: @textColor;
+
+@noteListViewItemSeparatorBorder: 1px solid @gray-10;
 @noteListViewItemFocusInnerShadow: inset 0 0 1px @gray-10;
+
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: @gray-20;
-@noteSearchBarInputBorder: 1px solid @gray-30;
+
+@noteSearchBarInputBorder: 1px solid @gray-10;
 @noteSearchBarInputBackground: @inputBackground;
 
 /*-------------------
@@ -70,9 +76,9 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: rgb(245, 245, 244);
-@preferencesSidebarItemActiveBackground: rgba(79, 142, 255, 0.2);
-@preferencesViewBackground: rgb(255, 255, 255);
+@preferencesSidebarBackground: @gray-00;
+@preferencesSidebarItemActiveBackground: @gray-10;
+@preferencesViewBackground: @gray-00;
 
 /*-------------------
       Task Icons

@@ -179,7 +179,7 @@
 @toggleOffHandleBoxShadow: @handleBoxShadow;
 
 @toggleOnLabelColor: @selectedTextColor;
-@toggleOnLaneColor: @primaryColor;
+@toggleOnLaneColor: @gray-10;
 
 @toggleOnHandleBoxShadow: @handleBoxShadow;
 

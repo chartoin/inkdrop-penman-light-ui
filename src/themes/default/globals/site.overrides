@@ -1,48 +1,6 @@
 /*******************************
         Global Overrides
 *******************************/
-/*-------------------
-      Side Bar
---------------------*/
-@sidebarBackground     : @gray-00;
-@sidebarMenuItemActiveBackground: @gray-10;
-@sidebarMenuSectionColor: @unselectedTextColor;
-@sidebarMenuItemColor  : @lightTextColor;
-@sidebarMenuActionColor : @disabledTextColor;
-@sidebarMenuActionHoverColor : @hoveredTextColor;
-@sidebarSyncStatusViewBackground: @gray-00;
-@sidebarSyncStatusViewTextColor: @unselectedTextColor;
-@sidebarSyncStatusViewDetailColor: @mutedTextColor;
-@sidebarScrollbarWidth: 6px;
-@sidebarScrollbarTrackBackground: rgba(255,255,255,0.02);
-@sidebarScrollbarThumbBackground: rgba(255,255,255,0.2);
-
-/*-------------------
-      Note List Bar
---------------------*/
-@noteListBarBackground: @gray-00;
-
-@noteListBarPinnedSectionHeaderBackground: @gray-00;
-@noteListBarPinnedSectionHeaderBorderBottom: 1px solid @gray-40;
-@noteListBarPinnedSectionFooterBorderBottom: 1px solid @gray-40;
-
-@noteListViewItemColor: @mutedTextColor;
-@noteListViewItemDateColor: @textColor;
-@noteListViewItemTagColor: @blueFocus;
-
-@noteListViewItemActiveBackground: @gray-10;
-@noteListViewItemActiveColor: @textColor;
-@noteListViewItemActiveDateColor: @textColor;
-@noteListViewItemActiveTagColor: @textColor;
-
-@noteListViewItemSeparatorBorder: 1px solid @gray-10;
-@noteListViewItemFocusInnerShadow: inset 0 0 1px @gray-10;
-
-@noteSearchBarBackground: @noteListBarBackground;
-@noteSearchBarBorderBottom: @gray-20;
-
-@noteSearchBarInputBorder: 1px solid @gray-10;
-@noteSearchBarInputBackground: @inputBackground;
 
 /*-------------------
       Others
@@ -65,4 +23,12 @@ button.mde-toolbar-item:hover {
 .editor-header-more button:hover {
 	color: @blue-90;
 	border-color: @blue-90;
+}
+
+.ui.tiny.button.plugin-action-button {
+	color: @gray-80;
+}
+
+.ui.button.primary.disabled {
+	color: @gray-40;
 }

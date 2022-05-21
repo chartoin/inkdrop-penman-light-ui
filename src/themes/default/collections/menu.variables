@@ -10,7 +10,7 @@
 @verticalMargin: @medium;
 @horizontalMargin: 0em;
 @margin: @verticalMargin @horizontalMargin;
-@background: #FFFFFF;
+@background: @gray-00;
 @fontFamily: @pageFont;
 @itemBackground: none;
 @fontWeight: @normal;
@@ -323,7 +323,7 @@
 @tabularFluidOffset: 1px;
 @tabularFluidWidth: calc(100% + (@tabularFluidOffset * 2));
 
-@tabularActiveBackground: none @white;
+@tabularActiveBackground: none @gray-00;
 @tabularActiveColor: @selectedTextColor;
 @tabularActiveBoxShadow: none;
 @tabularActiveWeight: @bold;
